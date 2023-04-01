@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Mini-Jeu Calcul</string>
     <string name="text_bouton_Jouer" translatable="false">Jouer</string>
+    <string name="text_bouton_scores" translatable="false">Voir les scores</string>
     <string name="text_bouton_Propos" translatable="false">A Propos</string>
     <string name="text_bouton_zéro" translatable="false">0</string>
     <string name="text_bouton_un" translatable="false">1</string>
@@ -14,5 +15,6 @@
     <string name="text_bouton_neuf" translatable="false">9</string>
     <string name="text_bouton_effacer" translatable="false">Effacer</string>
     <string name="text_bouton_valider" translatable="false">Valider</string>
-    <string name="score">Score</string>
+    <string name="vie">Vies: 3</string>
+    <string name="score">Score: 0</string>
 </resources>

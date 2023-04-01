@@ -46,7 +46,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00a6a7"
-                android:color="@color/black"
                 android:text="@string/text_bouton_Jouer"
                 android:textStyle="bold" />
 
@@ -55,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#048B9A"
-                android:text="Voir les scores"
+                android:text="@string/text_bouton_scores"
                 android:textStyle="bold" />
 
         </LinearLayout>
