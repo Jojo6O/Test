@@ -15,6 +15,7 @@
     <string name="text_bouton_neuf" translatable="false">9</string>
     <string name="text_bouton_effacer" translatable="false">Effacer</string>
     <string name="text_bouton_valider" translatable="false">Valider</string>
+    <string name="ERROR_NUMBER_TOO_HIGH" translatable="false">Nombre trop grand</string>
     <string name="vie">Vies: 3</string>
     <string name="score">Score: 0</string>
 </resources>

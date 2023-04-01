@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="50 - 11"
+                android:text="0"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             <Space
@@ -34,12 +34,23 @@
                 android:layout_height="50dp" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/TextViewReponse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="0"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/TextViewValide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         </LinearLayout>
 
@@ -55,20 +66,21 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/bouton_sept"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_sept" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/bouton_huit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_huit" />
 
                 <Button
-                    android:id="@+id/button6"
+                    android:id="@+id/bouton_neuf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -82,21 +94,21 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/bouton_quatre"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_quatre" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/bouton_cinq"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_cinq" />
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/bouton_six"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -109,21 +121,21 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button12"
+                    android:id="@+id/bouton_un"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_un" />
 
                 <Button
-                    android:id="@+id/button11"
+                    android:id="@+id/bouton_deux"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_deux" />
 
                 <Button
-                    android:id="@+id/button10"
+                    android:id="@+id/bouton_trois"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -136,14 +148,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button15"
+                    android:id="@+id/boutonEffacer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/text_bouton_effacer" />
 
                 <Button
-                    android:id="@+id/button14"
+                    android:id="@+id/bouton_zero"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
